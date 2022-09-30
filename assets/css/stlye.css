@@ -8,11 +8,6 @@
     src: url("../fonts/Athene.otf");
 }
 
-@font-face {
-    font-family: Befonts;
-    src: url("../fonts/");
-}
-
 html {
     font-size: 10px;
 }
@@ -32,47 +27,87 @@ header {
 
 header h1 {
     font-family: Athene;
-    text-decoration-line: underline;
     text-align: center;
     font-size: 8rem;
-
+    border-bottom: 2px solid #042A5A;
+    margin: 0 28%
 }
 
-section {
+header img {
+    margin: 2% 0;
+}
+
+/* header h1 span{
+    border: 2px solid #042A5A;
+} */
+
+header section {
     text-align: center;
     justify-content: center;
 }
 
-section figcaption {
+header section figcaption {
     padding-right: 18rem;
     font-size: 1.5rem;
     color: #042A5A;
     font-family: Athene;
+    padding-left: 2%;
 }
 
-/* figure {
-    /* display: flex;
-    align-content: center; 
-    
-}
-
-figcaption {
-    display: flex;
-} */
 
 /* ===================== Main Style ========================== */
 
-main section:nth-of-type(1) {
-    height: 1607, 6px;
+
+main section {
+    height: 1607.6px;
+    width: 1280px;
     background-color: #F4C4C4;
 }
 
-main section:nth-of-type(1) h2 {
+main section h2 {
     text-align: left;
+    font-size: 7rem;
+    font-family: Athene;
+}
+
+main section h2:nth-of-type(1) {
+    padding-top: 10rem;
 }
 
 main section article {
+    display: flex;
     justify-content: flex-end;
+}
+
+main section article p {
+    width: 33%;
+    line-height: 2.5rem;
+
+}
+
+main section article section {
+    flex-direction: column;
+}
+
+main section article section h3{
+    text-align: ;
+}
+
+main section article section div h3{
+    padding-left: 40rem;
+
+}
+
+main section article section div p {
+    padding-left: 80rem;
+    line-height: 9px;
+    text-align: right;
+}
+
+main section img {
+    width: 8rem;
+    align-items: flex-end;
+    justify-content: right;
 }
 
 /* ===================== Footer Style ========================== */
