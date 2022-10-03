@@ -59,9 +59,9 @@ header section figcaption {
 
 
 main section {
-    height: 1607.6px;
-    width: 1280px;
+    width: 100%;
     background-color: #F4C4C4;
+    padding-bottom: 50rem;
 }
 
 main section h2 {
@@ -70,13 +70,14 @@ main section h2 {
     font-family: Athene;
 }
 
-main section h2:nth-of-type(1) {
+/* main section h2:nth-of-type(1) {
     padding-top: 10rem;
-}
+} */
 
 main section article {
     display: flex;
     justify-content: flex-end;
+    width: 100%;
 }
 
 main section article p {
@@ -89,13 +90,24 @@ main section article section {
     flex-direction: column;
 }
 
-main section article section h3{
-    text-align: ;
+.list_h3 {
+    text-align: right;
+    padding-right: 2rem;
 }
 
-main section article section div h3{
+main section article section div h3 {
     padding-left: 40rem;
+}
 
+.list_content {
+    justify-content: right;
+    flex-direction: column;
+    /* border-top: black solid 2px; */
+}
+
+.list_head {
+    padding-top: 2rem;
+    line-height: 8rem;
 }
 
 main section article section div p {
@@ -108,6 +120,35 @@ main section img {
     width: 8rem;
     align-items: flex-end;
     justify-content: right;
+}
+
+main section:nth-of-type(2) {
+    width: 1280px;
+    background-color: #DEB873;
+    display: flex
+}
+
+main section:nth-of-type(2) h2 {
+    color: #7D2222;
+    text-align: right;
+    padding-top: 35rem;
+}
+
+
+main section:nth-of-type(2) article {
+    display: flex;
+}
+
+.column-article {
+    flex-direction: column;
+}
+
+.name-left {
+    align-items: center;
+}
+
+.name-right {
+    align-items: flex-end;
 }
 
 /* ===================== Footer Style ========================== */
